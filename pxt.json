@@ -1,0 +1,29 @@
+{
+    "name": "Microbit Lucas Racing Car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0",
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "ky040": "github:tinkertanker/pxt-rotary-encoder-ky040#v1.2.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
