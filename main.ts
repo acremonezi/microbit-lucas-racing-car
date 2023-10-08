@@ -50,7 +50,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 let carGear = 0
 carGear = 0
 basic.showString("" + (carGear))
-pins.setPull(DigitalPin.P16, PinPullMode.PullUp)
+pins.setPull(DigitalPin.P16, PinPullMode.PullDown)
 pins.setPull(DigitalPin.P13, PinPullMode.PullDown)
 pins.setPull(DigitalPin.P14, PinPullMode.PullDown)
 basic.forever(function () {
